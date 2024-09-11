@@ -31,7 +31,7 @@ function App() {
   }, [filter]);
 
   return (
-    <main className="w-full bg-darker min-h-screen py-72 bg-[url('./assets/bg-cafe.jpg')] bg-no-repeat bg-[center_top] bg-[length:100%_300px]">
+    <main className="w-full bg-darker min-h-screen py-36 bg-[url('./assets/bg-cafe.jpg')] bg-no-repeat bg-[center_top] bg-[length:100%_300px]">
       <div className="bg-dark w-fit mx-auto py-16 px-[10%] rounded-2xl">
         <h1 className="text-[2rem] font-bold text-center">Our Collection</h1>
         <p className="text-center text-gray py-6 max-w-[30rem] mx-auto font-semibold text-base">
